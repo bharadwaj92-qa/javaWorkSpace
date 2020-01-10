@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27897" started-at="2020-01-10T15:11:06Z" finished-at="2020-01-10T15:11:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27897" started-at="2020-01-10T15:11:06Z" finished-at="2020-01-10T15:11:34Z">
+      <class name="tests.TestCase_One">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.TestCase_One@13deb50e]" name="initialize" is-config="true" duration-ms="25541" started-at="2020-01-10T20:41:06Z" finished-at="2020-01-10T20:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="enterData(java.util.Map)[pri:0, instance:tests.TestCase_One@13deb50e]" name="enterData" duration-ms="340" started-at="2020-01-10T20:41:33Z" data-provider="getData" finished-at="2020-01-10T20:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=bnandira, Password=raju!123, FirstName=Bharadwaj, LastName=Nandiraju, City=Hyderabad}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+      </class> <!-- tests.TestCase_One -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
